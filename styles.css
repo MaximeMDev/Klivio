@@ -553,6 +553,9 @@ footer {
 .mobile-header {
   display: none;
 }
+.mobile-img {
+  display: none;
+}
 @media screen and (max-width: 600px) {
   /* HEADER */
   .head-1 {
@@ -612,6 +615,76 @@ footer {
     width: 100%;
   }
   .feedback-article {
+    text-align: center;
     width: 100%;
+  }
+  /* SECTION 3 */
+
+  .advantages-list-container {
+    flex-direction: column;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+  .desktop-img {
+    display: none;
+  }
+
+  /* SECTION 4 */
+  .about-section {
+    flex-direction: column;
+  }
+
+  /* SECTION 5 */
+  .contact-form-container {
+    .contact-form {
+      div.first-line-form {
+        flex-direction: column;
+        .first-line-input {
+          width: 100%;
+          margin: 18px 0;
+        }
+      }
+    }
+  }
+
+  /* SECTION FOOTER */
+  .first-section-footer {
+    flex-direction: column;
+    .first-parts {
+      flex-direction: column;
+      gap: 60px;
+      .footer-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+    .second-parts {
+      flex-direction: column;
+      .footer-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        ul li {
+          padding-left: 20px;
+          font-size: 15px;
+        }
+      }
+      nav {
+        display: none;
+      }
+    }
+  }
+  .footer-intern-separation {
+    display: none;
+  }
+  .second-section-footer {
+    display: none;
   }
 }
