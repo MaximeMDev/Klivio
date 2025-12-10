@@ -403,7 +403,7 @@ header {
       align-items: center;
       width: 100%;
       .first-line-input {
-        width: 37.44%;
+        width: 43.44%;
         height: 45.25px;
         font-size: 15px;
         font-weight: 400;
@@ -450,7 +450,7 @@ footer {
 }
 .footer-intern-separation {
   border: solid 1px #44dd8a;
-  width: 92.63%;
+  margin: 0 7.47%;
 }
 .first-section-footer {
   display: flex;
@@ -464,15 +464,18 @@ footer {
 }
 .list-element-12 {
   list-style-image: url(assets/loc.png);
-  padding-left: 35px;
+  position: relative;
+  right: -24px;
 }
 .list-element-13 {
   list-style-image: url(assets/phone.png);
-  padding-left: 35px;
+  position: relative;
+  right: -24px;
 }
 .list-element-14 {
   list-style-image: url(assets/mail.png);
-  padding-left: 35px;
+  position: relative;
+  right: -24px;
 }
 
 .first-parts {
@@ -521,19 +524,94 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 5.94%;
+  margin: 0 7.47%;
   color: #ffffff;
   font-size: 15px;
   .klivio {
     padding: 38px 0 127px 0;
   }
 }
-
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  line-height: 25px;
+  height: 140px;
+  width: 200px;
+}
 .footer-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 20.56%;
-  padding: 38px 0 127px 0;
+  padding: 38px 0 135px 0;
+}
+
+/* MEDIAQUERIES MOBILE */
+.mobile-header {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  /* HEADER */
+  .head-1 {
+    display: none;
+  }
+  .head-2 {
+    display: none;
+  }
+  .head-3 {
+    display: none;
+  }
+  .mobile-header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4.31%;
+  }
+  .banner {
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    h2 {
+      width: 80%;
+      font-size: 32px;
+    }
+    p {
+      width: 80%;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  /* SECTION 1 */
+  .card-section {
+    flex-direction: column;
+  }
+  .title-container {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    width: 80%;
+    .empty {
+      display: none;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
+  /* SECTION 2 */
+  .feedback-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .feedback-article {
+    width: 100%;
+  }
 }
