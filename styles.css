@@ -309,47 +309,47 @@ header {
 }
 
 .list-element-1 {
-  list-style-image: url(assets/fleche.png);
+  list-style-image: url(assets/fleche.svg);
   padding-left: 35px;
 }
 .list-element-2 {
-  list-style-image: url(assets/crayon.png);
+  list-style-image: url(assets/penlist.svg);
   padding-left: 35px;
 }
 .list-element-3 {
-  list-style-image: url(assets/download.png);
+  list-style-image: url(assets/dl.svg);
   padding-left: 35px;
 }
 .list-element-4 {
-  list-style-image: url(assets/star.png);
+  list-style-image: url(assets/star.svg);
   padding-left: 35px;
 }
 .list-element-5 {
-  list-style-image: url(assets/time.png);
+  list-style-image: url(assets/time.svg);
   padding-left: 35px;
 }
 .list-element-6 {
-  list-style-image: url(assets/msg.png);
+  list-style-image: url(assets/msg.svg);
   padding-left: 35px;
 }
 .list-element-7 {
-  list-style-image: url(assets/hand.png);
+  list-style-image: url(assets/hand.svg);
   padding-left: 35px;
 }
 .list-element-8 {
-  list-style-image: url(assets/heart.png);
+  list-style-image: url(assets/heart.svg);
   padding-left: 35px;
 }
 .list-element-9 {
-  list-style-image: url(assets/pen.png);
+  list-style-image: url(assets/pen.svg);
   padding-left: 35px;
 }
 .list-element-10 {
-  list-style-image: url(assets/settings.png);
+  list-style-image: url(assets/settings.svg);
   padding-left: 35px;
 }
 .list-element-11 {
-  list-style-image: url(assets/profilp.png);
+  list-style-image: url(assets/profil.svg);
   padding-left: 35px;
 }
 
@@ -408,6 +408,9 @@ header {
   width: 55vw;
   display: block;
   overflow: auto;
+  img {
+    width: 50%;
+  }
 }
 
 /* SECTION 4 */
