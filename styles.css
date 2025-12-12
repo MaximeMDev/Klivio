@@ -386,7 +386,7 @@ header {
   align-items: center;
   background-color: #ffffff;
   justify-content: space-evenly;
-  width: 50%;
+  width: 54%;
   padding: 11.5vh 6.56%;
   height: auto;
 
@@ -477,6 +477,9 @@ header {
 }
 
 /* FOOTER */
+.footer-logo {
+  width: 30%;
+}
 footer {
   background-color: #152237;
 }
@@ -566,7 +569,7 @@ footer {
   color: #ffffff;
   font-size: 15px;
   .klivio {
-    padding: 38px 0 127px 0;
+    padding: 20px 0 127px 0;
   }
 }
 .footer-list {
@@ -584,7 +587,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   width: 20.56%;
-  padding: 38px 0 135px 0;
+  padding: 20px 0 135px 0;
 }
 
 /* MEDIAQUERIES MOBILE */
@@ -740,10 +743,6 @@ footer {
         line-height: 28px;
       }
     }
-    .contact-form {
-      grid-template-columns: 1fr;
-      width: 90%;
-    }
 
     .textarea,
     .form-submit {
@@ -757,6 +756,8 @@ footer {
   /* SECTION 5 */
   .contact-form-container {
     .contact-form {
+      grid-template-columns: 1fr;
+      width: 90%;
       div.first-line-form {
         flex-direction: column;
         .first-line-input {
