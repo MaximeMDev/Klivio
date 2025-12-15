@@ -9,54 +9,53 @@
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
   </head>
-
   <body>
-    <header class="flex flex-row justify-evenly">
+    <header class="flex flex-row justify-evenly items-center h-20 bg-indigo-900">
       <div class="hidden">
         <img src="./assets/logo.svg" alt="Logo du site" />
         <img src="./assets/burger.svg" alt="Menu deroulant" />
       </div>
-      <div class="flex flex-row justify-spacebetween">
+      <div class="flex flex-row justify-evenly w-4/12">
         <a href="index.html">
-          <img src="./assets/logo.svg" alt="Logo du site" />
+          <img class="w-28" src="./assets/logo.svg" alt="Logo du site" />
         </a>
-        <h1>Les formations</h1>
+        <h1 class="flex flex-col justify-center items-center text-white">Les formations</h1>
       </div>
-      <div>
-        <input placeholder="Rechercher" type="search" />
+      <div class="flex flex-row justify-between items-center w-4/12 border border-white rounded-md p-1">
+        <input class="w-full bg-indigo-900" placeholder="Rechercher" type="search" />
         <button>
           <img src="./assets/search.svg" alt="Bouton rechercher" />
         </button>
       </div>
-      <nav class="flex flex-row justify-center">
-        <a href="#">Connexion</a>
-        <a href="#">Inscription</a>
+      <nav class="flex flex-row justify-center w-4/12 gap-5">
+        <a class="bg-white text-black py-2 px-8 rounded-md" href="#">Connexion</a>
+        <a class="bg-gradient-to-r from-amber-300 to-orange-500 text-black py-2 px-8 rounded-md" href="#">Inscription</a>
       </nav>
     </header>
     <main>
-      <div>
-        <div class="flex flex-col justify-evenly items-center">
+      <div class="bg-[url(assets/bg-header.png)] bg-no-repeat bg-cover h-96">
+        <div class="flex flex-col justify-evenly items-center bg-gradient-to-r from-amber-300 to-orange-500 h-96 opacity-70 text-black">
           <h2>KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h2>
           <p>LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</p>
-          <a href="#">En savoir plus</a>
+          <a class="bg-white py-2 px-8 rounded-md" href="#">En savoir plus</a>
         </div>
       </div>
-      <div>
-        <h2>Les formations populaires</h2>
+      <div class="flex flex-row justify-center">
+        <h2 class="text-5xl font-extrabold py-8 pl-20">Les formations populaires</h2>
         <div></div>
       </div>
       <div>
-        <div>
-          <div>
+        <div class="flex flex-wrap justify-evenly">
+          <div class="flex flex-col w-80">
             <img src="./assets/img-course.png" alt="Image de la formation" />
             <article>
-              <div>
+                <div class="flex flex-row justify-evenly items-center w-28 bg-indigo-900 text-white rounded-xl">
                 <p>15,99 €</p>
                 <del>60 €</del>
               </div>
               <h3>Parler en public</h3>
               <p>Sonia Lefèvre | Coach prise de parole</p>
-              <div>
+              <div class="flex flex-row">
                 <img src="./assets/stars.svg" alt="Voter une etoile" />
                 <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                 <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -66,16 +65,16 @@
               <p>Gagnez en aisance et captez votre auditoire</p>
             </article>
           </div>
-          <div>
+          <div class="flex flex-col w-80">
             <img src="./assets/img-course.png" alt="Image de la formation" />
             <article>
-              <div>
+                <div class="flex flex-row justify-evenly items-center w-28 bg-indigo-900 text-white rounded-xl">
                 <p>15,99 €</p>
                 <del>60 €</del>
               </div>
               <h3>Travailler en équipe</h3>
               <p>David Moreau | Expert</p>
-              <div>
+              <div class="flex flex-row">
                 <img src="./assets/stars.svg" alt="Voter une etoile" />
                 <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                 <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -85,16 +84,16 @@
               <p>Collaborez efficacement, même à distance</p>
             </article>
           </div>
-          <div>
+          <div class="flex flex-col w-80">
             <img src="./assets/img-course.png" alt="Image de la formation" />
             <article>
-              <div>
+                <div class="flex flex-row justify-evenly items-center w-28 bg-indigo-900 text-white rounded-xl">
                 <p>15,99 €</p>
                 <del>60 €</del>
               </div>
               <h3>Gérer son temps</h3>
               <p>Claire Dumas | Coach organisation</p>
-              <div>
+              <div class="flex flex-row">
                 <img src="./assets/stars.svg" alt="Voter une etoile" />
                 <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                 <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -104,16 +103,16 @@
               <p>Optimisez vos journées et gagnez en efficacité</p>
             </article>
           </div>
-          <div>
+          <div class="flex flex-col w-80">
             <img src="./assets/img-course.png" alt="Image de la formation" />
             <article>
-              <div>
+                <div class="flex flex-row justify-evenly items-center w-28 bg-indigo-900 text-white rounded-xl">
                 <p>15,99 €</p>
                 <del>60 €</del>
               </div>
               <h3>Gérer le stress</h3>
               <p>Lucie Garnier | Formatrice</p>
-              <div>
+              <div class="flex flex-row">
                 <img src="./assets/stars.svg" alt="Voter une etoile" />
                 <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                 <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -127,21 +126,24 @@
             </article>
           </div>
         </div>
-        <a href="#">Voir plus de formations</a>
-        <div>
-          <h2>Les formations récentes</h2>
+          <div class="flex flex-row justify-center bg">
+          <a class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md m-7" href="#">Voir plus de formations</a>
+          </div>
+        <div class="flex flex-row justify-center bg-indigo-900">
+          <h2 class="text-5xl font-extrabold py-8 pl-20 text-white">Les formations récentes</h2>
           <div></div>
-          <div>
-            <div>
+          </div>
+          <div class="flex flex-wrap justify-evenly bg-indigo-900 text-white">
+          <div class="flex flex-col w-80">
               <img src="./assets/img-course.png" alt="Image de la formation" />
               <article>
-                <div>
+                <div class="flex flex-row justify-evenly items-center w-28 rounded-xl bg-white text-black">
                   <p>15,99 €</p>
                   <del>60 €</del>
                 </div>
                 <h3>Mieux communiquer</h3>
                 <p>Julien Martel | Coach en comm.</p>
-                <div>
+                <div class="flex flex-row">
                   <img src="./assets/stars.svg" alt="Voter une etoile" />
                   <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                   <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -151,16 +153,16 @@
                 <p>Améliorez vos échanges et votre impact relationnel</p>
               </article>
             </div>
-            <div>
+          <div class="flex flex-col w-80">
               <img src="./assets/img-course.png" alt="Image de la formation" />
               <article>
-                <div>
+                <div class="flex flex-row justify-evenly items-center w-28 rounded-xl bg-white text-black">
                   <p>15,99 €</p>
                   <del>60 €</del>
                 </div>
                 <h3>Maîtriser ses émotions</h3>
                 <p>Amel Benali | Psy. du travail</p>
-                <div>
+                <div class="flex flex-row">
                   <img src="./assets/stars.svg" alt="Voter une etoile" />
                   <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                   <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -170,16 +172,16 @@
                 <p>Développez calme et intelligence émotionnelle</p>
               </article>
             </div>
-            <div>
+          <div class="flex flex-col w-80">
               <img src="./assets/img-course.png" alt="Image de la formation" />
               <article>
-                <div>
+                <div class="flex flex-row justify-evenly items-center w-28 rounded-xl bg-white text-black">
                   <p>15,99 €</p>
                   <del>60 €</del>
                 </div>
                 <h3>Résoudre les problèmes</h3>
                 <p>Thomas Rivière | Expert</p>
-                <div>
+                <div class="flex flex-row">
                   <img src="./assets/stars.svg" alt="Voter une etoile" />
                   <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                   <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -189,16 +191,16 @@
                 <p>Analysez, décidez et trouvez des solutions durables</p>
               </article>
             </div>
-            <div>
+          <div class="flex flex-col w-80">
               <img src="./assets/img-course.png" alt="Image de la formation" />
               <article>
-                <div>
+                <div class="flex flex-row justify-evenly items-center w-28 rounded-xl bg-white text-black">
                   <p>15,99 €</p>
                   <del>60 €</del>
                 </div>
                 <h3>Leadership positif</h3>
                 <p>Marc Nguyen | Consultant</p>
-                <div>
+                <div class="flex flex-row">
                   <img src="./assets/stars.svg" alt="Voter une etoile" />
                   <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
                   <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -209,18 +211,21 @@
               </article>
             </div>
           </div>
-          <a href="#">Voir plus de formations</a>
+          <div class="flex flex-row justify-center bg-indigo-900">
+          <a class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md m-7" href="#">Voir plus de formations</a>
+          </div>
         </div>
-
+        <div class="flex flex-row justify-center">
         <h2>AVIS CLIENTS</h2>
-        <div>
-          <div>
+        </div>
+        <div class="flex flex-row justify-evenly">
+          <div class="w-2/4">
             <img
               src="./assets/juliette.png"
               alt="Photo de profil de Juliette"
             />
             <p>Juliette</p>
-            <div>
+            <div class="flex flex-row">
               <img src="./assets/stars.svg" alt="Voter une etoile" />
               <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
               <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -235,10 +240,10 @@
               autonomie.
             </p>
           </div>
-          <div>
+          <div class="w-2/4">
             <img src="./assets/camille.png" alt="Photo de profil de Juliette" />
             <p>Camille</p>
-            <div>
+            <div class="flex flex-row">
               <img src="./assets/stars.svg" alt="Voter une etoile" />
               <img src="./assets/stars.svg" alt="Voter 2 etoiles" />
               <img src="./assets/stars.svg" alt="Voter 3 etoiles" />
@@ -253,8 +258,8 @@
           </div>
         </div>
       </div>
-      <section>
-        <div>
+      <section class="flex flex-row justify-evenly py-20">
+        <div class="flex flex-col justify-evenly w-2/5">
           <h2>LES AVANTAGES KLIVIO</h2>
           <ul>
             <li>Suivi de sa progression</li>
@@ -268,12 +273,12 @@
             </li>
           </ul>
         </div>
-        <img src="./assets/avantages.png" alt="Images avantages" />
+        <img class="w-2/5" src="./assets/avantages.png" alt="Images avantages" />
       </section>
-      <section>
-        <div>
+      <section class="flex flex-row-reverse justify-evenly py-20">
+        <div class="flex flex-col justify-evenly w-2/5">
           <h2>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
-          <img
+          <img class="hidden"
             src="./assets/become-author.png"
             alt="Images crée vos formations"
           />
@@ -294,12 +299,13 @@
           </ul>
         </div>
         <img
+          class="w-2/5"
           src="./assets/become-author.png"
           alt="Images crée vos formations"
         />
       </section>
-      <section>
-        <div>
+      <section class="flex flex-row justify-evenly items-center">
+        <div class="w-2/4 px-20 py-44 h-screen">
           <h2>À PROPOS DE KILVIO</h2>
 
           <p>
@@ -318,26 +324,26 @@
             notre mission d'offrir des pportunités d'apprentissage de qualité
           </p>
         </div>
-        <div>
-          <img src="./assets/logo.svg" alt="Logo du site" />
+        <div class="flex flex-row justify-center items-center w-2/4 bg-indigo-900 h-screen">
+          <img class="w-2/4" src="./assets/logo.svg" alt="Logo du site"/>
         </div>
       </section>
-      <section>
+      <section class="flex flex-col justify-evenly items-center h-96">
         <h2>NOUS CONTACTER</h2>
-        <hr />
-        <form>
-          <input placeholder="Nom" type="text" />
-          <input placeholder="Email" type="email" />
-          <textarea placeholder="Votre message"></textarea>
+        <hr/>
+        <form class="grid grid-cols-3 grid-rows-4 gap-4 w-3/4">
+          <input class="bg-indigo-900" placeholder="Nom" type="text" />
+          <input class="col-start-3 bg-indigo-900" placeholder="Email" type="email" />
+          <textarea class="col-span-3 row-span-2 row-start-3 bg-indigo-900" placeholder="Votre message"></textarea>
         </form>
-        <button>Envoyer</button>
+        <button class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md">Envoyer</button>
       </section>
     </main>
     <hr />
-    <footer>
-      <section>
-        <div>
-          <img src="./assets/logo.svg" alt="Logo du site" />
+    <footer class="bg-indigo-900">
+      <section class="flex flex-row justify-evenly">
+        <div class="flex flex-row justify-between w-2/5">
+          <img class="w-60" src="./assets/logo.svg" alt="Logo du site" />
           <div>
             <h3>Mentions légales</h3>
             <ul>
@@ -348,7 +354,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="flex flex-row justify-between w-2/5">
           <div>
             <h3>Coordonnées</h3>
             <ul>
@@ -357,21 +363,21 @@
               <li>contact@klivio.fr</li>
             </ul>
           </div>
-          <nav>
+          <nav class="flex flex-col justify-center items-center">
             <a href="#">Connexion</a>
             <a href="#">Inscription</a>
           </nav>
         </div>
       </section>
       <hr />
-      <div>
+      <div class="flex flex-row justify-between">
         <p>@Klivio - 2025</p>
-        <nav>
+        <nav class="flex flex-row justify-evenly">
           <p>Suivez - nous</p>
-          <img src="./assets/fb.svg" alt="Logo Facebook" />
-          <img src="./assets/x.svg" alt="Logo X" />
-          <img src="./assets/insta.svg" alt="Logo Instagram" />
-          <img src="./assets/in.svg" alt="Logo Linkedin" />
+          <img class="px-2" src="./assets/fb.svg" alt="Logo Facebook" />
+          <img class="px-2" src="./assets/x.svg" alt="Logo X" />
+          <img class="px-2" src="./assets/insta.svg" alt="Logo Instagram" />
+          <img class="px-2" src="./assets/in.svg" alt="Logo Linkedin" />
         </nav>
       </div>
     </footer>
