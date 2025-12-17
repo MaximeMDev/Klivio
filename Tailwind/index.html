@@ -11,45 +11,45 @@
     </style>
   </head>
   <body>
-    <header class="flex flex-row justify-evenly items-center h-20 bg-gray-400">
-      <div class="hidden">
-        <img src="assets/logo.png" alt="Logo du site" />
-        <img src="./assets/burger.svg" alt="Menu deroulant" />
+    <header class="flex flex-row justify-evenly items-center h-20 bg-[#312F2F]">
+      <div class="md:hidden flex flex-row justify-between items-center w-full pr-8">
+        <img class="w-28" src="assets/logo2.png" alt="Logo du site" />
+        <img class="w-8" src="./assets/burger.svg" alt="Menu deroulant" />
       </div>
-      <div class="flex flex-row justify-evenly w-4/12">
+      <div class="hidden md:flex flex-row justify-evenly w-4/12">
         <a href="index.html">
-          <img class="w-28" src="assets/logo.png" alt="Logo du site" />
+          <img class="w-28" src="assets/logo2.png" alt="Logo du site" />
         </a>
-        <h1 class="flex flex-col justify-center items-center text-gray-700 text-3xl font-bold">Les formations</h1>
+        <h1 class="hidden md:flex flex-col justify-center items-center text-white text-3xl font-bold">Les formations</h1>
       </div>
-      <div class="flex flex-row justify-between items-center w-4/12 border border-white rounded-md p-1">
-        <input class="w-full bg-gray-400" placeholder="Rechercher" type="search" />
+      <div class="hidden md:flex flex-row justify-between items-center w-4/12 border border-white rounded-md p-1">
+        <input class="w-full bg-[#312F2F] text-white" placeholder="Rechercher" type="search" />
         <button>
           <img src="./assets/search.svg" alt="Bouton rechercher" />
         </button>
       </div>
-      <nav class="flex flex-row justify-center w-4/12 gap-5">
-        <a class="bg-gray-700 text-white py-2 px-8 rounded-md" href="#">Connexion</a>
-        <a class="bg-gradient-to-r from-amber-300 to-orange-500 text-black py-2 px-8 rounded-md" href="#">Inscription</a>
+      <nav class="hidden md:flex flex-row justify-center w-4/12 gap-5">
+        <a class="bg-[#427AA1] text-white py-2 px-8 rounded-md" href="#">Connexion</a>
+        <a class="bg-gradient-to-r from-amber-300 to-orange-500 text-white py-2 px-8 rounded-md" href="#">Inscription</a>
       </nav>
     </header>
     <main>
       <div>
-        <div class="flex flex-col justify-center gap-5 items-center bg-[url(assets/bg-header.png)] bg-center bg-no-repeat bg-cover w-full h-96 text-black">
-          <h2 class="text-4xl font-bold text-opacity-100">KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h2>
+        <div class="text-center flex flex-col justify-center gap-5 items-center bg-[url(assets/bg-header.png)] bg-center bg-no-repeat bg-cover w-full h-96 text-black">
+          <h2 class="text-6xl font-bold">KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h2>
           <p class="font-bold">LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</p>
           <a class="bg-white py-2 px-8 rounded-md" href="#">En savoir plus</a>
         </div>
       </div>
-      <div class="flex flex-row justify-center">
+      <div class="text-center flex flex-row justify-center">
         <h2 class="text-5xl font-extrabold py-8">Les formations populaires</h2>
         <div></div>
       </div>
       <div>
         <div class="flex flex-wrap justify-evenly">
           <div class="flex flex-col w-80">
-            <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+            <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                 <p class="font-bold text-xl">15,99 €</p>
                 <del>60 €</del>
@@ -67,8 +67,8 @@
             </article>
           </div>
           <div class="flex flex-col w-80">
-            <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+            <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                 <p class="font-bold text-xl">15,99 €</p>
                 <del>60 €</del>
@@ -86,8 +86,8 @@
             </article>
           </div>
           <div class="flex flex-col w-80">
-            <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+            <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                 <p class="font-bold text-xl">15,99 €</p>
                 <del>60 €</del>
@@ -105,8 +105,8 @@
             </article>
           </div>
           <div class="flex flex-col w-80">
-            <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+            <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+            <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                 <p class="font-bold text-xl">15,99 €</p>
                 <del>60 €</del>
@@ -127,17 +127,17 @@
             </article>
           </div>
         </div>
-          <div class="flex flex-row justify-center bg">
-          <a class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md m-7" href="#">Voir plus de formations</a>
+          <div class="flex flex-row justify-center ">
+          <a class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md m-7 text-white" href="#">Voir plus de formations</a>
           </div>
-        <div class="flex flex-row justify-center bg-gray-400">
-          <h2 class="text-5xl font-extrabold py-8 text-gray-700">Les formations récentes</h2>
+        <div class="text-center flex flex-row justify-center bg-[#312F2F]">
+          <h2 class="text-5xl font-extrabold py-8 text-[#ff8c00]">Les formations récentes</h2>
           <div></div>
           </div>
-          <div class="flex flex-wrap justify-evenly bg-gray-400">
+          <div class="flex flex-wrap justify-evenly bg-[#312F2F]">
           <div class="flex flex-col w-80">
-              <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+              <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                   <p class="font-bold text-xl">15,99 €</p>
                   <del>60 €</del>
@@ -155,8 +155,8 @@
               </article>
             </div>
           <div class="flex flex-col w-80">
-              <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+              <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                   <p class="font-bold text-xl">15,99 €</p>
                   <del>60 €</del>
@@ -174,8 +174,8 @@
               </article>
             </div>
           <div class="flex flex-col w-80">
-              <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+              <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                   <p class="font-bold text-xl">15,99 €</p>
                   <del>60 €</del>
@@ -193,8 +193,8 @@
               </article>
             </div>
           <div class="flex flex-col w-80">
-              <img class="rounded-md" src="./assets/img-course.png" alt="Image de la formation" />
-              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-yellow-700">
+              <img class="rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)]" src="./assets/img-course.png" alt="Image de la formation" />
+              <article class="shadow-2xl px-8 pb-8 relative -top-7 -right-5 rounded-xl shadow-[10px_10px_10px_3px_rgba(0,_0,_0,_0.1)] bg-white z-50 border border-[#ff8c00]">
                 <div class="flex flex-row justify-evenly items-center w-32 bg-gray-700 text-white rounded-full relative -top-5 -right-14 p-2">
                   <p class="font-bold text-xl">15,99 €</p>
                   <del>60 €</del>
@@ -212,15 +212,15 @@
               </article>
             </div>
           </div>
-          <div class="flex flex-row justify-center bg-gray-400">
-          <a class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md m-7" href="#">Voir plus de formations</a>
+          <div class="flex flex-row justify-center bg-[#312F2F]">
+          <a class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md m-7 text-white" href="#">Voir plus de formations</a>
           </div>
         </div>
         <div class="flex flex-row justify-center">
-        <h2 class="text-5xl font-extrabold py-8 text-gray-700">AVIS CLIENTS</h2>
+        <h2 class="text-5xl font-extrabold py-8 text-black">AVIS CLIENTS</h2>
         </div>
-        <div class="flex flex-row justify-evenly mb-10">
-          <div class="w-2/4 rounded-md shadow-md bg-gray-50 w-5/12 p-10">
+        <div class="flex-col gap-8 flex md:flex-row justify-evenly items-center mb-10">
+          <div class="w-2/4 rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)] bg-gray-50 w-4/5 md:w-5/12 p-10">
             <img
               src="./assets/juliette.png"
               alt="Photo de profil de Juliette"
@@ -241,7 +241,7 @@
               autonomie.
             </p>
           </div>
-          <div class="w-2/4 rounded-md shadow-md bg-gray-50 w-5/12 p-10">
+          <div class="w-2/4 rounded-md shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)] bg-gray-50 w-4/5 md:w-5/12 p-10">
             <img src="./assets/camille.png" alt="Photo de profil de Juliette" />
             <p class="text-4xl font-bold py-4">Camille</p>
             <div class="flex flex-row gap-2 pb-4">
@@ -259,10 +259,10 @@
           </div>
         </div>
       </div>
-      <section class="flex flex-row justify-evenly py-20 bg-gray-400">
-        <div class="flex flex-col justify-evenly w-2/5">
-          <h2 class="text-4xl font-bold py-4">LES AVANTAGES KLIVIO</h2>
-          <ul>
+      <section class="flex-col text-center flex md:flex-row md:text-left items-center justify-evenly py-20 bg-[#427AA1]">
+        <div class="flex flex-col justify-evenly items-center w-4/5 md:w-2/5">
+          <h2 class="text-4xl font-bold py-4 text-[#ff8c00]">LES AVANTAGES KLIVIO</h2>
+          <ul class="w-3/5">
             <li class="list-element-1">Suivi de sa progression</li>
             <li class="list-element-2">Exercices et QCM pour la mise en pratique</li>
             <li class="list-element-3">Possibilité de télécharger/imprimer les formations</li>
@@ -274,16 +274,16 @@
             </li>
           </ul>
         </div>
-        <img class="w-2/5" src="./assets/avantages.png" alt="Images avantages" />
+        <img class="mt-12 w-4/5  md:w-2/5 shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)] rounded-full" src="./assets/avantages.png" alt="Images avantages" />
       </section>
-      <section class="flex flex-row-reverse justify-evenly py-20">
-        <div class="flex flex-col justify-evenly w-2/5">
+      <section class="flex-col text-center flex md:flex-row-reverse justify-evenly items-center md:text-left py-20">
+        <div class="flex flex-col justify-evenly items-center w-4/5 md:w-2/5">
           <h2 class="text-4xl font-bold py-4">CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
           <img class="hidden"
             src="./assets/become-author.png"
             alt="Images crée vos formations"
           />
-          <ul>
+          <ul class="w-3/5">
             <li class="list-element-7">Commission unique, au pourcentage sur les ventes</li>
             <li class="list-element-8">Mise en avant sur la plateforme</li>
             <li class="list-element-9">Contrôle total sur le cours : contenu, prix</li>
@@ -300,14 +300,14 @@
           </ul>
         </div>
         <img
-          class="w-2/5"
+          class="mt-12 w-4/5 md:w-2/5 shadow-[10px_10px_16px_5px_rgba(0,_0,_0,_0.1)] rounded-full"
           src="./assets/become-author.png"
           alt="Images crée vos formations"
         />
       </section>
-      <section class="flex flex-row justify-evenly items-center">
-        <div class="w-2/4 px-20 py-20">
-          <h2 class="text-4xl font-bold py-4">À PROPOS DE KILVIO</h2>
+      <section class="flex-col flex md:flex-row justify-evenly items-center bg-[#427AA1]">
+        <div class="md:w-2/4 px-20">
+          <h2 class="text-center text-4xl font-bold py-4 text-[#ff8c00]">À PROPOS DE KILVIO</h2>
 
           <p>
             Chez Klivio, nous défendons des valeurs fondamentales qui
@@ -325,29 +325,29 @@
             notre mission d'offrir des pportunités d'apprentissage de qualité
           </p>
         </div>
-        <div class="flex flex-row justify-center items-center w-2/4 bg-gray-400">
+        <div class="flex flex-row justify-center items-center w-full">
           <img class="w-2/4" src="assets/logo.png" alt="Logo du site"/>
         </div>
       </section>
-      <section class="flex flex-col justify-evenly items-center h-96">
+      <section class="flex flex-col justify-evenly items-center gap-6 mb-5">
         <h2 class="text-4xl font-bold py-4">NOUS CONTACTER</h2>
         <hr/>
-        <form class="grid grid-cols-3 grid-rows-4 gap-4 w-3/4">
-          <input class="bg-gray-400" placeholder="Nom" type="text" />
-          <input class="col-start-3 bg-gray-400" placeholder="Email" type="email" />
-          <textarea class="col-span-3 row-span-2 row-start-3 bg-gray-400" placeholder="Votre message"></textarea>
+        <form class="grid  grid-cols-1 grid-rows-6 gap-0 w-3/4 md:w-2/4">
+          <input class="md:col-span-1 col-span-2 bg-[#312F2F] text-2xl rounded-md p-2" placeholder="Nom" type="text" />
+          <input class="md:col-span-1 col-span-2 row-start-3 bg-[#312F2F] text-2xl rounded-md p-2" placeholder="Email" type="email" />
+          <textarea class="col-span-1 row-span-2 row-start-5 bg-[#312F2F] text-2xl rounded-md p-2" placeholder="Votre message"></textarea>
         </form>
-        <button class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md">Envoyer</button>
+        <button class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md text-white">Envoyer</button>
       </section>
     </main>
     <hr />
-    <footer class="bg-gray-400">
-      <section class="flex flex-row justify-evenly">
-        <div class="flex flex-row justify-between w-2/5">
+    <footer class="bg-[#312F2F]">
+      <section class="flex-col flex md:flex-row justify-evenly items-center">
+        <div class="flex-col flex md:flex-row justify-between items-center w-2/5">
           <img class="w-60" src="assets/logo.png" alt="Logo du site" />
-          <div>
-            <h3>Mentions légales</h3>
-            <ul>
+          <div class="flex flex-col justify-evenly h-40">
+            <h3 class="font-bold text-2xl text-center md:text-left text-[#ff8c00]">Mentions légales</h3>
+            <ul class="text-center md:text-left text-[#ff8c00]">
               <li>CGU</li>
               <li>CGV</li>
               <li>FAQ</li>
@@ -355,26 +355,26 @@
             </ul>
           </div>
         </div>
-        <div class="flex flex-row justify-between w-2/5">
-          <div>
-            <h3>Coordonnées</h3>
-            <ul>
+        <div class="flex flex-row justify-between items-center w-2/5">
+          <div class="flex flex-col justify-evenly h-40">
+            <h3 class="font-bold text-2xl text-center md:text-left text-[#ff8c00]">Coordonnées</h3>
+            <ul class="text-center md:text-left text-[#ff8c00]">
               <li>1 place république,75003 Paris</li>
               <li>01.02.03.04.05</li>
               <li>contact@klivio.fr</li>
             </ul>
           </div>
-          <nav class="flex flex-col justify-center items-center">
-            <a href="#">Connexion</a>
-            <a href="#">Inscription</a>
+          <nav class="hidden md:flex flex-col justify-center items-center gap-4">
+            <a class="bg-gray-700 text-white py-2 px-8 rounded-md" href="#">Connexion</a>
+            <a class="bg-gradient-to-r from-amber-300 to-orange-500 text-white py-2 px-8 rounded-md" href="#">Inscription</a>
           </nav>
         </div>
       </section>
-      <hr />
-      <div class="flex flex-row justify-between">
-        <p>@Klivio - 2025</p>
+      <hr class="w-5/6"/>
+      <div class="flex flex-row justify-evenly py-2">
+        <p class="font-bold text-white">@Klivio - 2025</p>
         <nav class="flex flex-row justify-evenly">
-          <p>Suivez - nous</p>
+          <p class="text-white">Suivez - nous</p>
           <img class="px-2" src="./assets/fb.svg" alt="Logo Facebook" />
           <img class="px-2" src="./assets/x.svg" alt="Logo X" />
           <img class="px-2" src="./assets/insta.svg" alt="Logo Instagram" />
