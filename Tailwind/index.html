@@ -29,20 +29,20 @@
         </button>
       </div>
       <nav class="hidden md:flex flex-row justify-center w-4/12 gap-5">
-        <a class="bg-[#427AA1] text-white py-2 px-8 rounded-md" href="#">Connexion</a>
+        <a class="bg-[#427AA1] text-white py-2 px-8 rounded-md " href="#">Connexion</a>
         <a class="bg-gradient-to-r from-amber-300 to-orange-500 text-white py-2 px-8 rounded-md" href="#">Inscription</a>
       </nav>
     </header>
     <main>
       <div>
-        <div class="text-center flex flex-col justify-center gap-5 items-center bg-[url(assets/bg-header.png)] bg-center bg-no-repeat bg-cover w-full h-96 text-black">
-          <h2 class="text-6xl font-bold">KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h2>
-          <p class="font-bold">LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</p>
-          <a class="bg-white py-2 px-8 rounded-md" href="#">En savoir plus</a>
+        <div class="text-center flex flex-col justify-center md:gap-5 items-center bg-[url(assets/bg-header.png)] bg-center bg-no-repeat bg-cover w-full h-36 md:h-96 text-black">
+          <h2 class="text-4xl md:text-6xl font-bold outline-black [text-stroke:1px_black] [-webkit-text-stroke:1px_black] text-[#ff8c00]">KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h2>
+          <p class="hidden md:inline font-bold text-white md:text-xl outline-black [text-stroke:1px_black] [-webkit-text-stroke:1px_black]">LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</p>
+          <a class="hidden md:inline bg-white py-2 px-8 rounded-md" href="#">En savoir plus</a>
         </div>
       </div>
       <div class="text-center flex flex-row justify-center">
-        <h2 class="text-5xl font-extrabold py-8">Les formations populaires</h2>
+        <h2 class="text-5xl font-extrabold py-8 text-[#433A3F]">Les formations populaires</h2>
         <div></div>
       </div>
       <div>
@@ -131,7 +131,7 @@
           <a class="bg-gradient-to-r from-amber-300 to-orange-500 py-2 px-8 rounded-md m-7 text-white" href="#">Voir plus de formations</a>
           </div>
         <div class="text-center flex flex-row justify-center bg-[#312F2F]">
-          <h2 class="text-5xl font-extrabold py-8 text-[#ff8c00]">Les formations récentes</h2>
+          <h2 class="text-5xl font-extrabold py-8 text-[#ff8c00] outline-black [text-stroke:1px_black] [-webkit-text-stroke:1px_black]">Les formations récentes</h2>
           <div></div>
           </div>
           <div class="flex flex-wrap justify-evenly bg-[#312F2F]">
@@ -261,8 +261,8 @@
       </div>
       <section class="flex-col text-center flex md:flex-row md:text-left items-center justify-evenly py-20 bg-[#427AA1]">
         <div class="flex flex-col justify-evenly items-center w-4/5 md:w-2/5">
-          <h2 class="text-4xl font-bold py-4 text-[#ff8c00]">LES AVANTAGES KLIVIO</h2>
-          <ul class="w-3/5">
+          <h2 class="text-4xl md:text-6xl font-bold py-4 text-[#ff8c00] outline-black [text-stroke:1px_black] [-webkit-text-stroke:1px_black]">LES AVANTAGES KLIVIO</h2>
+          <ul class="text-2xl text-white w-4/5 md:w-3/5">
             <li class="list-element-1">Suivi de sa progression</li>
             <li class="list-element-2">Exercices et QCM pour la mise en pratique</li>
             <li class="list-element-3">Possibilité de télécharger/imprimer les formations</li>
@@ -278,12 +278,12 @@
       </section>
       <section class="flex-col text-center flex md:flex-row-reverse justify-evenly items-center md:text-left py-20">
         <div class="flex flex-col justify-evenly items-center w-4/5 md:w-2/5">
-          <h2 class="text-4xl font-bold py-4">CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
+          <h2 class="text-4xl md:text-6xl text-center font-bold py-4">CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
           <img class="hidden"
             src="./assets/become-author.png"
             alt="Images crée vos formations"
           />
-          <ul class="w-3/5">
+          <ul class="text-2xl w-4/5 md:w-3/5">
             <li class="list-element-7">Commission unique, au pourcentage sur les ventes</li>
             <li class="list-element-8">Mise en avant sur la plateforme</li>
             <li class="list-element-9">Contrôle total sur le cours : contenu, prix</li>
@@ -307,16 +307,16 @@
       </section>
       <section class="flex-col flex md:flex-row justify-evenly items-center bg-[#427AA1]">
         <div class="md:w-2/4 px-20">
-          <h2 class="text-center text-4xl font-bold py-4 text-[#ff8c00]">À PROPOS DE KILVIO</h2>
+          <h2 class="text-center text-4xl md:text-6xl font-bold py-4 text-[#ff8c00] outline-black [text-stroke:1px_black] [-webkit-text-stroke:1px_black]">À PROPOS DE KILVIO</h2>
 
-          <p>
+          <p class="text-lg text-white">
             Chez Klivio, nous défendons des valeurs fondamentales qui
             définissent notre approche éducative. Nous nous engageons à assurer
             une rémunération équitable pour les créateurs de contenu,
             reconnaissant la qualité de leur travail.
           </p>
           <br />
-          <p>
+          <p class="text-lg text-white">
             Favorisant l'autonomie d'apprentissage, notre plateforme offre la
             flexibilité écessaire pour explorer divers sujets. La transparence
             est au cœur de notre démarche, garantissant une clarté totale sur
@@ -325,14 +325,14 @@
             notre mission d'offrir des pportunités d'apprentissage de qualité
           </p>
         </div>
-        <div class="flex flex-row justify-center items-center w-full">
-          <img class="w-2/4" src="assets/logo.png" alt="Logo du site"/>
+        <div class="flex flex-row justify-center items-center w-2/4">
+          <img class="md:w-2/4" src="assets/logo.png" alt="Logo du site"/>
         </div>
       </section>
       <section class="flex flex-col justify-evenly items-center gap-6 mb-5">
         <h2 class="text-4xl font-bold py-4">NOUS CONTACTER</h2>
         <hr/>
-        <form class="grid  grid-cols-1 grid-rows-6 gap-0 w-3/4 md:w-2/4">
+        <form class="grid  grid-cols-1 grid-rows-6 gap-0 w-3/4 md:w-2/4 text-white">
           <input class="md:col-span-1 col-span-2 bg-[#312F2F] text-2xl rounded-md p-2" placeholder="Nom" type="text" />
           <input class="md:col-span-1 col-span-2 row-start-3 bg-[#312F2F] text-2xl rounded-md p-2" placeholder="Email" type="email" />
           <textarea class="col-span-1 row-span-2 row-start-5 bg-[#312F2F] text-2xl rounded-md p-2" placeholder="Votre message"></textarea>
@@ -346,7 +346,7 @@
         <div class="flex-col flex md:flex-row justify-between items-center w-2/5">
           <img class="w-60" src="assets/logo.png" alt="Logo du site" />
           <div class="flex flex-col justify-evenly h-40">
-            <h3 class="font-bold text-2xl text-center md:text-left text-[#ff8c00]">Mentions légales</h3>
+            <h3 class="font-bold text-2xl text-center md:text-left text-[#ff8c00] outline-black [text-stroke:1px_black] [-webkit-text-stroke:1px_black]">Mentions légales</h3>
             <ul class="text-center md:text-left text-[#ff8c00]">
               <li>CGU</li>
               <li>CGV</li>
@@ -357,7 +357,7 @@
         </div>
         <div class="flex flex-row justify-between items-center w-2/5">
           <div class="flex flex-col justify-evenly h-40">
-            <h3 class="font-bold text-2xl text-center md:text-left text-[#ff8c00]">Coordonnées</h3>
+            <h3 class="font-bold text-2xl text-center md:text-left text-[#ff8c00] outline-black [text-stroke:1px_black] [-webkit-text-stroke:1px_black]">Coordonnées</h3>
             <ul class="text-center md:text-left text-[#ff8c00]">
               <li>1 place république,75003 Paris</li>
               <li>01.02.03.04.05</li>
@@ -370,15 +370,15 @@
           </nav>
         </div>
       </section>
-      <hr class="w-5/6"/>
-      <div class="flex flex-row justify-evenly py-2">
+      <hr class="w-5/6 m-auto"/>
+      <div class="flex-col text-center flex md:flex-row justify-evenly py-2">
         <p class="font-bold text-white">@Klivio - 2025</p>
-        <nav class="flex flex-row justify-evenly">
+        <nav class="flex-col flex md:flex-row items-center gap-2 justify-evenly">
           <p class="text-white">Suivez - nous</p>
-          <img class="px-2" src="./assets/fb.svg" alt="Logo Facebook" />
-          <img class="px-2" src="./assets/x.svg" alt="Logo X" />
-          <img class="px-2" src="./assets/insta.svg" alt="Logo Instagram" />
-          <img class="px-2" src="./assets/in.svg" alt="Logo Linkedin" />
+          <img class="w-10 px-2" src="./assets/fb.svg" alt="Logo Facebook" />
+          <img class="w-10 px-2" src="./assets/x.svg" alt="Logo X" />
+          <img class="w-10 px-2" src="./assets/insta.svg" alt="Logo Instagram" />
+          <img class="w-10 px-2" src="./assets/in.svg" alt="Logo Linkedin" />
         </nav>
       </div>
     </footer>
